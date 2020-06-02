@@ -2,8 +2,6 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
 }
 
 .movies-main {
@@ -12,12 +10,12 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    /* width: 30%; */
     border: solid 1px white;
     padding: 20px;
     margin:10px;
     position: relative;
-    height: 300px;
+    height: 200px;
 }
 
 .movie-title {
@@ -47,9 +45,7 @@ border-bottom: 1px white solid;
     color: white;
 }
 
-.fas:hover {
-    color: rgb(255, 219, 153);
-}
+
 
 .clicked{
     color: rgb(240, 204, 1);
@@ -76,5 +72,10 @@ border-bottom: 1px white solid;
 
     .movies-main {
         height: auto;
+         width: 30%;
+    }
+
+    .fas:hover {
+        color: rgb(255, 219, 153);
     }
   }

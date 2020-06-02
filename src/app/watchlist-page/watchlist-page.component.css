@@ -12,7 +12,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 30%;
     border: solid 1px white;
     padding: 20px;
     margin:10px;
@@ -45,12 +44,6 @@ padding: 5px 0;
     color: rgb(221, 81, 81);
 }
 
-.fas:hover {
-    color: rgb(231, 3, 3);
-}
-
-
-
 .details {
     display: none;
 }
@@ -64,3 +57,18 @@ padding: 5px 0;
 .posterClicked {
     display:none;
 }
+
+@media only screen and (min-width: 768px) {
+    .movie-poster {
+        max-width: 100% ;
+    }
+
+    .movies-main {
+        height: auto;
+         width: 30%;
+    }
+
+    .fas:hover {
+        color: rgb(231, 3, 3);
+    }
+  }
